@@ -1,0 +1,534 @@
+<head>
+  <title>Homework Assigment 12</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+      crossorigin="anonymous">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+</head>
+
+<body>
+
+
+<div id="page2">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="page2.html">Data </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page3.html">Comparisons</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="page3.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="page4.html">Birth Rates</a>
+              <a class="dropdown-item" href="page5.html">Technology</a>
+              <a class="dropdown-item" href="page6.html">Ease of Business</a>
+              <a class="dropdown-item" href="page7.html">Tourism</a>
+            </div>
+          </li>
+                    </ul>
+        </div>
+    </nav>
+  
+  
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12">
+                  <h1 class='text-left mb-3'>Data used for Analysis</h1>
+                  <table summary="Data">
+                    <caption></caption>
+                    <thead>
+                      <tr>
+                        <th>GDP per Capita</th>
+                        <th>Birthrate</th>
+                        <th>Ease of Business</th>
+                        <th>GDP</th>
+                        <th>Internet Usage</th>
+                        <th>Mobile Phone</th>
+                        <th>Country</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1727</td>
+                        <td>1.5-3%</td>
+                        <td>Low</td>
+                        <td>$55B</td>
+                        <td>0.01</td>
+                        <td>0</td>
+                        <td>Algeria</td>
+                      <tr>
+                      <tr>
+                          <td>656</td>
+                          <td>Above 3%</td>
+                          <td>Low</td>
+                          <td>$9B</td>
+                          <td>0</td>
+                          <td>0</td>
+                          <td>Angola</td>
+                        <tr>
+                            <tr>
+                                <td>339</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$2B</td>
+                                <td>0</td>
+                                <td>0.01</td>
+                                <td>Benin</td>
+                             <tr>
+                             <tr>
+                                <td>3297</td>
+                                <td>1.5-3%</td>
+                                <td>Friendly</td>
+                                <td>$6B</td>
+                                <td>0.03</td>
+                                <td>0.13</td>
+                                <td>Botswana</td>
+                             <tr>
+                             <tr>
+                                <td>225</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$3B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Burkina Faso</td>
+                             <tr>
+                             <tr>
+                                <td>130</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$1B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Burundi</td>
+                             <tr>
+                             <tr>
+                                <td>583</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$9B</td>
+                                <td>0</td>
+                                <td>0.01</td>
+                                <td>Cameroon</td>
+                             <tr>
+                             <tr>
+                                <td>251</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$1B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Central African Republic</td>
+                             <tr>
+                             <tr>
+                                <td>167</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$1B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Chad</td>
+                             <tr>
+                             <tr>
+                                <td>382</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$0B</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>Comoros</td>
+                             <tr>
+                             <tr>
+                                <td>407</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$19B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Congo, Dem. Rep.</td>
+                             <tr>
+                             <tr>
+                                <td>1030</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$3B</td>
+                                <td>0</td>
+                                <td>0.02</td>
+                                <td>Congo, Rep.</td>
+                             <tr>
+                             <tr>
+                                <td>646</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$10B</td>
+                                <td>0</td>
+                                <td>0.03</td>
+                                <td>Cote d'Ivoire</td>
+                             <tr>
+                             <tr>
+                                <td>763</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$1B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Djibouti</td>
+                             <tr>
+                             <tr>
+                                <td>1510</td>
+                                <td>1.5-3%</td>
+                                <td>Moderate</td>
+                                <td>$100B</td>
+                                <td>0.01</td>
+                                <td>0.02</td>
+                                <td>Egypt, Arab Rep.</td>
+                             <tr>
+                             <tr>
+                                <td>2019</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$1B</td>
+                                <td>0</td>
+                                <td>0.01</td>
+                                <td>Equatorial Guinea</td>
+                             <tr>
+                             <tr>
+                                <td>179</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$1B</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>Eritrea</td>
+                             <tr>
+                             <tr>
+                                <td>123</td>
+                                <td>Above 3%</td>
+                                <td>Moderate</td>
+                                <td>$8B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Ethiopia</td>
+                             <tr>
+                             <tr>
+                                <td>4135</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$5B</td>
+                                <td>0.01</td>
+                                <td>0.1</td>
+                                <td>Gabon</td>
+                             <tr>
+                             <tr>
+                                <td>637</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$1B</td>
+                                <td>0.01</td>
+                                <td>0.01</td>
+                                <td>Gambia, The</td>
+                             <tr>
+                             <tr>
+                                <td>265</td>
+                                <td>Above 3%</td>
+                                <td>Friendly</td>
+                                <td>$5B</td>
+                                <td>0</td>
+                                <td>0.01</td>
+                                <td>Ghana</td>
+                             <tr>
+                             <tr>
+                                <td>342</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$3B</td>
+                                <td>0</td>
+                                <td>0.01</td>
+                                <td>Guinea</td>
+                             <tr>
+                             <tr>
+                                <td>284</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$0B</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>Guinea-Bissau</td>
+                             <tr>
+                             <tr>
+                                <td>406</td>
+                                <td>Above 3%</td>
+                                <td>Moderate</td>
+                                <td>$13B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Kenya</td>
+                             <tr>
+                             <tr>
+                                <td>415</td>
+                                <td>Above 3%</td>
+                                <td>Moderate</td>
+                                <td>$1B</td>
+                                <td>0</td>
+                                <td>0.01</td>
+                                <td>Lesotho</td>
+                             <tr>
+                             <tr>
+                                <td>183</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$1B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Liberia</td>
+                             <tr>
+                             <tr>
+                                <td>6549</td>
+                                <td>1.5-3%</td>
+                                <td>Low</td>
+                                <td>$34B</td>
+                                <td>0</td>
+                                <td>0.01</td>
+                                <td>Libya</td>
+                             <tr>
+                             <tr>
+                                <td>246</td>
+                                <td>Above 3%</td>
+                                <td>Moderate</td>
+                                <td>$4B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Madagascar</td>
+                             <tr>
+                             <tr>
+                                <td>154</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$2B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Malawi</td>
+                             <tr>
+                             <tr>
+                                <td>236</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$2B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Mali</td>
+                             <tr>
+                             <tr>
+                                <td>478</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$1B</td>
+                                <td>0</td>
+                                <td>0.01</td>
+                                <td>Mauritania</td>
+                             <tr>
+                             <tr>
+                                <td>3861</td>
+                                <td>1.5-3%</td>
+                                <td>Very Friendly</td>
+                                <td>$5B</td>
+                                <td>0.07</td>
+                                <td>0.15</td>
+                                <td>Mauritius</td>
+                             <tr>
+                             <tr>
+                                <td>1289</td>
+                                <td>1.5-3%</td>
+                                <td>Friendly</td>
+                                <td>$37B</td>
+                                <td>0.01</td>
+                                <td>0.08</td>
+                                <td>Morocco</td>
+                             <tr>
+                             <tr>
+                                <td>236</td>
+                                <td>Above 3%</td>
+                                <td>Moderate</td>
+                                <td>$4B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Mozambique</td>
+                             <tr>
+                             <tr>
+                                <td>2059</td>
+                                <td>Above 3%</td>
+                                <td>Friendly</td>
+                                <td>$4B</td>
+                                <td>0.02</td>
+                                <td>0.04</td>
+                                <td>Namibia</td>
+                             <tr>
+                             <tr>
+                                <td>164</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$2B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Niger</td>
+                             <tr>
+                             <tr>
+                                <td>378</td>
+                                <td>Above 3%</td>
+                                <td>Moderate</td>
+                                <td>$46B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Nigeria</td>
+                             <tr>
+                             <tr>
+                                <td>207</td>
+                                <td>Above 3%</td>
+                                <td>Friendly</td>
+                                <td>$2B</td>
+                                <td>0</td>
+                                <td>0.01</td>
+                                <td>Rwanda</td>
+                             <tr>
+                             <tr>
+                                <td>550</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$0B</td>
+                                <td>0.05</td>
+                                <td></td>
+                                <td>Sao Tome and Principe</td>
+                             <tr>
+                             <tr>
+                                <td>475</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$5B</td>
+                                <td>0</td>
+                                <td>0.03</td>
+                                <td>Senegal</td>
+                             <tr>
+                             <tr>
+                                <td>7579</td>
+                                <td>1.5-3%</td>
+                                <td>Friendly</td>
+                                <td>$1B</td>
+                                <td>0.07</td>
+                                <td>0.33</td>
+                                <td>Seychelles</td>
+                             <tr>
+                             <tr>
+                                <td>154</td>
+                                <td>Above 3%</td>
+                                <td>Moderate</td>
+                                <td>$1B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Sierra Leone</td>
+                             <tr>
+                             <tr>
+                                <td></td>
+                                <td>Above 3%</td>
+                                <td>Not Clustered</td>
+                                <td></td>
+                                <td>0</td>
+                                <td>0.01</td>
+                                <td>Somalia</td>
+                             <tr>
+                             <tr>
+                                <td>3020</td>
+                                <td>1.5-3%</td>
+                                <td>Very Friendly</td>
+                                <td>$133B</td>
+                                <td>0.05</td>
+                                <td>0.19</td>
+                                <td>South Africa</td>
+                             <tr>
+                             <tr>
+                                <td></td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>South Sudan</td>
+                             <tr>
+                             <tr>
+                                <td>442</td>
+                                <td>Above 3%</td>
+                                <td>Moderate</td>
+                                <td>$12B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Sudan</td>
+                             <tr>
+                             <tr>
+                                <td>1433</td>
+                                <td>Above 3%</td>
+                                <td>Moderate</td>
+                                <td>$2B</td>
+                                <td>0.01</td>
+                                <td>0.03</td>
+                                <td>Swaziland</td>
+                             <tr>
+                             <tr>
+                                <td>299</td>
+                                <td>Above 3%</td>
+                                <td>Moderate</td>
+                                <td>$10B</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>Tanzania</td>
+                             <tr>
+                             <tr>
+                                <td>266</td>
+                                <td>Above 3%</td>
+                                <td>Low</td>
+                                <td>$1B</td>
+                                <td>0.01</td>
+                                <td>0.01</td>
+                                <td>Togo</td>
+                             <tr>
+                                 
+                      <!-- more rows here... -->
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td colspan="10">
+                        <!-- content here... -->
+                        </td>
+                      </tr>
+                    </tfoot>
+                  </table>
+              </div>
+              
+                  </div>
+              </div>
+          </div>
+  
+         
+          <!-- end main container -->
+      </div>
+  
+      <footer class="footer">
+              <div class="container">
+                  <p class="text-muted text-center" id="textHere"></p>
+              </div>
+      </footer>
